@@ -55,7 +55,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|165298001|60409401|38a9a3f2-12e8-4c00-90dc-75566b8442aa|56000603-de78-4e37-9809-2e88119417fd",
+        "courtyards_overlap|176427001|58513001|2440028d-0f91-4950-b92f-4b627694f8ba|56000603-de78-4e37-9809-2e88119417fd",
+        "hole_near_hole|177927000|59563000|f3673aa2-4e47-4367-8f53-f50dad3b53b5|3455e329-6f30-49d3-8fc7-fa75ce6401fa",
+        "hole_near_hole|177927000|64643000|d718735b-93af-49a4-a50b-401bcda99aff|a818d6c8-d9ba-411e-a072-a94406ca4d59",
+        "malformed_courtyard|99440000|131140000|00000000-0000-0000-0000-0000572c8c01|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2

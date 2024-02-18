@@ -7,12 +7,13 @@
   (paper "A4")
   (title_block
     (title "CoPiCo: WiFi and more for the Tandy Color Computer")
-    (date "2024-02-07")
-    (rev "0.2.1")
+    (date "2024-02-18")
+    (rev "0.1.22")
     (company "Thomas Shanks (copico@tshanks.org)")
-    (comment 1 "https://github.com/JayesonLS/TandyCircuitsAndLogic/tree/master/CoCoProtoBoard")
-    (comment 2 "Board footprint based on the Public Domain CoCoProtoBoard:")
-    (comment 4 "https://github.com/thomasshanks/copico-board")
+    (comment 1 "found at: github.com/JayesonLS/TandyCircuitsAndLogic/tree/master/CoCoProtoBoard")
+    (comment 2 "Board footprint based on the Public Domain CoCoProtoBoard, which can be")
+    (comment 3 "Released under the MIT License (opensource.org/license/mit)")
+    (comment 4 "GitHub Repo: https://github.com/thomasshanks/copico-board")
   )
 
   (layers
@@ -7656,7 +7657,7 @@
   (gr_text "Thanks To:\n\nHenry Strickland (strick@yak.net)\n            for the idea, and for adding CoPiCo support to cocoio\n\nRaye Keslensky (raye@lid.cc) \n            for the artwork, and for answering all my KiCad questions" (at 107.442 59.182 180) (layer "B.SilkS") (tstamp 3018b63a-627e-4cbb-bcfd-25876e82e086)
     (effects (font (size 1.0668 1.0668) (thickness 0.1778)) (justify left bottom mirror))
   )
-  (gr_text "Src: github.com/thomasshanks/copico-board    Docs: copico.github.io" (at 110.744 109.22 90) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000060307e96)
+  (gr_text "Src: github.com/thomasshanks/copico-board    Docs: copico-project.github.io" (at 110.744 109.22 90) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000060307e96)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "TOP SIDE" (at 129.54 97.663 90) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000060315fe7)
