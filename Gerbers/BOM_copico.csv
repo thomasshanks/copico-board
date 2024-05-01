@@ -1,28 +1,27 @@
-Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor,DNP
-"C1, C2, C4, C5, C8, C9, C33, C35, C73, C75",10,0.1uF,C,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,Ceramic THT Capacitor,,
-C40,1,100uF,C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,Electrolytic THT Capacitor,,
-D1,1,,1N5817,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,"20V 1A Schottky Barrier Rectifier Diode, DO-41",,
-"JP1, JP3, JP10, JP11",4,Open,DIP_Jumper_Header_1x2,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,"Header, 100mil, single row, 1x2",,
-JP12,1,Bridged12,DIP_Jumper_Header_1x2,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,"Header, 100mil, single row, 1x2",,
-"JP2, JP101, JP102, JP103, JP104, JP105, JP106, JP107, JP108, JP109, JP110, JP111, JP112",13,Bridged12,DIP_Jumper_Header_1x3,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,"Header, 100mil, single row, 1x3",,
-JP4,1,Bridged23,DIP_Jumper_Header_1x4,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,"Header, 100mil, single row, 1x4",,
-"JP1, JP2, JP3, JP4, JP4, JP10, JP11, JP12, JP101, JP102, JP103, JP104, JP105, JP106, JP107, JP108, JP109, JP110, JP111, JP112",20,,DIP_Jumper_2_Pin,None,"Plastic Jumper, 2-pin, 100mil DIP Spacing",,
-P1,1,,DIP_Header_1x16,Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical,"Header, 100mil, single row, 1x16",,
-"P2, P3",2,,DIP_Header_1x8,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,"Header, 100mil, single row, 1x8",,
-P4,1,,DIP_Header_1x5,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,"Header, 100mil, single row, 1x5",,
-P10,1,,DIP_Header_1x4,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,"Header, 100mil, single row, 1x4",,
-"R1, R2, R3",3,2.2K,R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,"Resistor, 0.25W, Axial",,
-R4,1,10k,R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,"Resistor, 0.25W, Axial",,
-"TP1, TP2",2,,DIP_Header_1x1,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,"Header, 100mil, single row, 1x1",,
-U1,1,,74LS133N,Package_DIP:DIP-16_W7.62mm_LongPads,NAND 13-input,,
-"U1, U9",2,,DIP-16_W300_Socket,Package_DIP:DIP-16_W7.62mm_LongPads,,,
-U2,1,,74LS06N,Package_DIP:DIP-14_W7.62mm_LongPads,Inverter Open Collect,,
-U2,1,,DIP-14_W300_Socket,Package_DIP:DIP-14_W7.62mm_LongPads,,,
-U3,1,,PicoWH,RPi_Pico:RPi_PicoW_SMD_TH,RPi Pico WH,,
-"U3, U3",2,,SIP-20_Socket,Package_SIP:SIP-20_LongPads,,,
-"U4, U6, U7, U8",4,,SN74LVC245AN,Package_DIP:DIP-20_W7.62mm_LongPads,,,
-"U4, U6, U7, U8",4,,DIP-20_W300_Socket,Package_DIP:DIP-20_W7.62mm_LongPads,,,
-U5,1,,SN74LVC4245A,Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm,,,
-U5,1,,SOIC-24_to_DIP-24_W600_Adapter,Package_DIP:DIP-24_W15.24mm_LongPads,,,
-U5,1,,DIP-24_W600_Socket,Package_DIP:DIP-24_W15.24mm_LongPads,,,
-U9,1,,74LS138N,Package_DIP:DIP-16_W7.62mm_LongPads,Decoder 3 to 8 active low outputs,,
+Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor,Part
+"C1, C2, C4, C5, C8, C9, C33, C35, C73, C75",10,0.1uF,C,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,Ceramic THT Capacitor,AVX,SR215C104MAA
+C40,1,100uF,C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,Electrolytic THT Capacitor,Panasonic,16SEPC100MW
+D1,1,,1N5817,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,"20V 1A Schottky Barrier Rectifier Diode, DO-41",Major Brands,1N5817
+"JP1, JP3, JP10, JP11",4,Open,DIP_Jumper_Header_1x2,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,"Header, 100mil, single row, 1x2",Jameco ValuePro,PH20-140S-6T
+JP12,1,Bridged12,DIP_Jumper_Header_1x2,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,"Header, 100mil, single row, 1x2",Jameco ValuePro,PH20-140S-6T
+"JP2, JP101, JP102, JP103, JP104, JP105, JP106, JP107, JP108, JP109, JP110, JP111, JP112",13,Bridged12,DIP_Jumper_Header_1x3,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,"Header, 100mil, single row, 1x3",Jameco ValuePro,PH20-140S-6T
+JP4,1,Bridged23,DIP_Jumper_Header_1x4,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,"Header, 100mil, single row, 1x4",Jameco ValuePro,PH20-140S-6T
+"JP1, JP2, JP3, JP4, JP4, JP10, JP11, JP12, JP101, JP102, JP103, JP104, JP105, JP106, JP107, JP108, JP109, JP110, JP111, JP112",20,,DIP_Jumper_2_Pin,None,"Plastic Jumper, 2-pin, 100mil DIP Spacing",TE Connectivity,881545-1
+P1,1,,DIP_Header_1x16,Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical,"Header, 100mil, single row, 1x16",Jameco ValuePro,PH20-140S-6T
+"P2, P3",2,,DIP_Header_1x8,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,"Header, 100mil, single row, 1x8",Jameco ValuePro,PH20-140S-6T
+P4,1,,DIP_Header_1x5,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,"Header, 100mil, single row, 1x5",Jameco ValuePro,PH20-140S-6T
+P10,1,,DIP_Header_1x4,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,"Header, 100mil, single row, 1x4",Jameco ValuePro,PH20-140S-6T
+"R1, R2, R3",3,2.2K,R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,"Resistor, 0.25W, Axial",Jameco ValuePro,CF1/4W222JRC
+R4,1,10k,R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,"Resistor, 0.25W, Axial",Jameco ValuePro,RC0410K0JT
+"TP1, TP2",2,,DIP_Header_1x1,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,"Header, 100mil, single row, 1x1",Jameco ValuePro,PH20-140S-6T
+U1,1,,74LS133N,Package_DIP:DIP-16_W7.62mm_LongPads,NAND 13-input,Motorola,SN74LS133N
+"U1, U9",2,,DIP-16_W300_Socket,Package_DIP:DIP-16_W7.62mm_LongPads,,Jameco ValuePro,ICS-316-T
+U2,1,,74LS06N,Package_DIP:DIP-14_W7.62mm_LongPads,Inverter Open Collect,Major Brands,74LS06N
+U2,1,,DIP-14_W300_Socket,Package_DIP:DIP-14_W7.62mm_LongPads,,Jameco ValuePro,ICS-314-T
+U3,1,,PicoWH,RPi_Pico:RPi_PicoW_SMD_TH,RPi Pico W,RPi,Pico W
+"U3, U3",2,,DIP_Header_1x20,Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical,"Header, 100mil, single row, 1x20",Jameco ValuePro,PH20-140S-6T
+"U3, U3",2,,SIP-20_Socket,Package_SIP:SIP-20_LongPads,,Jameco ValuePro,G85-20-R
+"U4, U6, U7, U8",4,,SN74LVC245AN,Package_DIP:DIP-20_W7.62mm_LongPads,,TI,SN74LVC245AN
+"U4, U6, U7, U8",4,,DIP-20_W300_Socket,Package_DIP:DIP-20_W7.62mm_LongPads,,Adam Tech,ICS-320-T
+U5,1,,SN74LVC4245A,Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm,,TI,SN74LVC4245ADWR
+U9,1,,74LS138N,Package_DIP:DIP-16_W7.62mm_LongPads,Decoder 3 to 8 active low outputs,TI,SN74LS138N
